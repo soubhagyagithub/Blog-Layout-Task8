@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Blog</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">MyBlog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!-- Blog Card 1 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=300&fit=crop"
+                class="card-img-top rounded-top"
+                alt="Tech Blog"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Foodie's Paradise</h5>
+
+                <p class="card-text text-muted">
+                  Dive into delightful recipes, cooking hacks, and reviews.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 2 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=300&fit=crop"
+                class="card-img-top rounded-top"
+                alt="Travel Blog"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Journey to the Blue</h5>
+                <p class="card-text text-muted">
+                  Discover serene beaches, hidden trails, and adventures
+                  worldwide.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 3 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?w=600&h=300&fit=crop"
+                class="card-img-top rounded-top"
+                alt="Food Blog"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Exploring the Tech World</h5>
+                <p class="card-text text-muted">
+                  Stay ahead with the latest in software, gadgets, and
+                  innovations.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 4 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=300&fit=crop"
+                class="card-img-top rounded-top"
+                alt="Minimal Blog"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Work & Productivity</h5>
+                <p class="card-text text-muted">
+                  Tips on staying productive with a clean and minimal workspace.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 5 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600&h=300&fit=crop"
+                class="card-img-top rounded-top"
+                alt="Fashion Blog"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Style & Trends</h5>
+                <p class="card-text text-muted">
+                  Explore fashion tips, outfit ideas, and seasonal trends.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Card 6 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600&h=300&fit=crop"
+                class="card-img-top rounded-top"
+                alt="Nature Blog"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Into the Wild</h5>
+                <p class="card-text text-muted">
+                  Stories from the outdoors, mountain hikes, and green escapes.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p class="mb-2">&copy; 2025 MyBlog. All rights reserved.</p>
+        <div>
+          <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white me-3"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
